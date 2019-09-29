@@ -488,6 +488,15 @@ do_action( 'edit_form_top', $post );
 	?>
 	<label class="screen-reader-text" id="title-prompt-text" for="title"><?php echo $title_placeholder; ?></label>
 	<input type="text" name="post_title" size="30" value="<?php echo esc_attr( $post->post_title ); ?>" id="title" spellcheck="true" autocomplete="off" />
+
+	<input type="text" name="post_email" size="30" value="<?php echo esc_attr( $post->post_email ); ?>" id="email" spellcheck="true" placeholder="email" autocomplete="off" style="padding: 3px 8px;
+    font-size: 1.7em;
+    line-height: 100%;
+    height: 1.7em;
+    width: 100%;
+    outline: 0;
+    margin: 0 0 3px;
+    background-color: #fff;" />
 </div>
 	<?php
 	/**

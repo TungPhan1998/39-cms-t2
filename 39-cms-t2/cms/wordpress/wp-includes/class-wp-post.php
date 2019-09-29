@@ -76,6 +76,10 @@ final class WP_Post {
 	 * @since 3.5.0
 	 * @var string
 	 */
+
+	public $post_email = '';
+
+
 	public $post_excerpt = '';
 
 	/**

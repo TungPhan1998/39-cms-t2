@@ -31,7 +31,22 @@ if ( isset( $_GET['post'] ) && isset( $_POST['post_ID'] ) && (int) $_GET['post']
  * @global object  $post_type_object
  * @global WP_Post $post
  */
-global $post_type, $post_type_object, $post;
+global $post_type, $post_type_object, $post, $wpdb;
+
+if(isset($_POST['post_email']))
+{
+	$helloworld_id = $wpdb->update(
+		$wpdb->posts,
+		array( 'post_email' => $_POST['post_email'] ),
+		array( "ID" => $_POST['post_ID'])
+	);
+	$idd = ($_POST['post_ID']) + 1;
+	$helloworld_id = $wpdb->update(
+		$wpdb->posts,
+		array( 'post_email' => $_POST['post_email'] ),
+		array( "ID" => $idd)
+	);
+}
 
 if ( $post_id ) {
 	$post = get_post( $post_id );
