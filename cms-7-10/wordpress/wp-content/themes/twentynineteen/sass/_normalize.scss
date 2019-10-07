@@ -1,0 +1,72 @@
+keyName="HKEY_LOCAL_MACHINE\Software\Microsoft\Windows Media Device Manager\Plugins\SCP\" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="RMGetLicense Class" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\Implemented Categories\" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\Implemented Categories\{7DD95801-9882-11CF-9FA9-00AA006C42C4}\" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\Implemented Categories\{7DD95802-9882-11CF-9FA9-00AA006C42C4}\" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\InprocServer32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="$(runtime.system32)\msnetobj.dll" owner="true" />
+      <registryValue name="ThreadingModel" valueType="REG_SZ" value="Both" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\ProgID\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DRM.GetLicense.1" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\Programmable\" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{8AA720BF-7468-4DA1-97DA-66D2E41B3DDA}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\Version\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="1.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}\VersionIndependentProgID\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DRM.GetLicense" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\DRM.GetLicense\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="RMGetLicense Class" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\DRM.GetLicense\CurVer\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="DRM.GetLicense.1" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\DRM.GetLicense\CLSID\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\DRM.GetLicense.1\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="RMGetLicense Class" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\DRM.GetLicense.1\CLSID\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{A9FC132B-096D-460B-B7D5-1DB0FAE0C062}" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{760C4B83-E211-11D2-BF3E-00805FBE84A6}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="Windows Media Services DRM Storage object" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{760C4B83-E211-11D2-BF3E-00805FBE84A6}\Implemented Categories\" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{760C4B83-E211-11D2-BF3E-00805FBE84A6}\Implemented Categories\{7DD95801-9882-11CF-9FA9-00AA006C42C4}\" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{760C4B83-E211-11D2-BF3E-00805FBE84A6}\Implemented Categories\{7DD95802-9882-11CF-9FA9-00AA006C42C4}\" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{760C4B83-E211-11D2-BF3E-00805FBE84A6}\InprocServer32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="$(runtime.system32)\msnetobj.dll" owner="true" />
+      <registryValue name="ThreadingModel" valueType="REG_SZ" value="Both" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{760C4B83-E211-11D2-BF3E-00805FBE84A6}\Programmable\" owner="false" />
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{760C4B83-E211-11D2-BF3E-00805FBE84A6}\TypeLib\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{8AA720BF-7468-4DA1-97DA-66D2E41B3DDA}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\CLSID\{760C4B83-E211-11D2-BF3E-00805FBE84A6}\Version\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="1.0" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{760C4B82-E211-11D2-BF3E-00805FBE84A6}\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IWMSDrmStore" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{760C4B82-E211-11D2-BF3E-00805FBE84A6}\ProxyStubClsid\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{760C4B82-E211-11D2-BF3E-00805FBE84A6}\ProxyStubClsid32\" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0

@@ -1,0 +1,20 @@
+<MessageAttributesData>%5</MessageAttributesData>
+              </EventData>
+            </UserData>
+          </template>
+          <template tid="FontCache:prefetchFileEvent">
+            <data inType="win:UInt32" name="HRESULT" />
+            <data inType="win:UnicodeString" name="PrefetchFileName" />
+            <UserData>
+              <EventData xmlns="http://manifests.microsoft.com/win/2004/08/windows/eventlog">
+                <HRESULT>%1</HRESULT>
+                <PrefetchFileName>%2</PrefetchFileName>
+              </EventData>
+            </UserData>
+          </template>
+        </templates>
+        <events>
+          <event channel="Tracing" keywords="core" level="win:Informational" message="$(string.elementConstructionEvent.ElementConstructionSuccess)" opcode="win:Info" symbol="ElementConstructionSuccess" template="FontCache:elementConstructionEvent" value="100" />
+          <event channel="Tracing" keywords="core" level="win:Informational" message="$(string.elementConstructionEvent.ElementConstructionFailure)" opcode="win:Info" symbol="ElementConstructionFailure" template="FontCache:elementConstructionEvent" value="101" />
+          <event channel="Tracing" keywords="core" level="win:Informational" message="$(string.elementConstructionEvent.ElementMalformedKey)" opcode="win:Info" symbol="ElementMalformedKey" template="FontCache:elementConstructionEvent" value="102" />
+          <event channel="Tracing" keywords="core" level="win:Informational" message="$(string.alpcMessageEvent.AlpcMessageReceivedEvent)" opcode="win
