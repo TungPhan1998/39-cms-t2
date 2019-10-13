@@ -1,0 +1,190 @@
+EventMessage" value="Data indicated from transport: %1 %2 %3 %4 %5" />
+        <string id="AFD_EVENT_OLD_DISCONNECT_INDICATED.EventMessage" value="Disconnect indicated from transport: %1 %2" />
+        <string id="AFD_EVENT_OLD_DROP_DGRAM.EventMessage" value="Datagram dropped: %1 %2 %3 %4 %5 %6" />
+        <string id="AFD_EVENT_OLD_EVENTSELECT.EventMessage" value="WSAEventSelect: %1 %2 %3" />
+        <string id="AFD_EVENT_OLD_RECV.EventMessage" value="Receive posted: %1 %2 %3 %4 %5 %6" />
+        <string id="AFD_EVENT_OLD_RECV_DONE.EventMessage" value="Recv completed: %1 %2 %3 %4" />
+        <string id="AFD_EVENT_OLD_RECV_ERR.EventMessage" value="Failed recv request: %1 %2 %3" />
+        <string id="AFD_EVENT_OLD_RECVFROM.EventMessage" value="RecvFrom posted: %1 %2 %3 %4 %5 %6" />
+        <string id="AFD_EVENT_OLD_RECVFROM_DONE.EventMessage" value="RecvFrom completed: %1 %2 %3 %4 %5 %6 %7" />
+        <string id="AFD_EVENT_OLD_RECVFROM_ERR.EventMessage" value="Failed recvfrom request: %1 %2 %3" />
+        <string id="AFD_EVENT_OLD_SELECT_POLL.EventMessage" value="Select/Poll posted: %1 %2 %3" />
+        <string id="AFD_EVENT_OLD_SELECT_POLL_DONE.EventMessage" value="Select/Poll completed: %1 %2 %3" />
+        <string id="AFD_EVENT_OLD_SEND.EventMessage" value="Send posted: %1 %2 %3 %4 %5 %6" />
+        <string id="AFD_EVENT_OLD_SEND_DONE.EventMessage" value="Send completed: %1 %2 %3 %4" />
+        <string id="AFD_EVENT_OLD_SEND_ERR.EventMessage" value="Failed send request: %1 %2 %3" />
+        <string id="AFD_EVENT_OLD_SENDMSG_DONE.EventMessage" value="SendMsg completed: %1 %2 %3 %4" />
+        <string id="AFD_EVENT_OLD_SENDMSG_ERR.EventMessage" value="Failed WSASendMsg request: %1 %2 %3" />
+        <string id="AFD_EVENT_OLD_SENDTO.EventMessage" value="SendTo posted: %1 %2 %3 %4 %5 %6 %7 %8" />
+        <string id="AFD_EVENT_OLD_SENDTO_DONE.EventMessage" value="SendTo completed: %1 %2 %3 %4" />
+        <string id="AFD_EVENT_OLD_SOCKET_OPTION.EventMessage" value="Socket option set: %1 %2 %3 %4" />
+        <string id="AFD_EVENT_OPTION.EventMessage" value="Socket option: %1: Process %3, Endpoint %4, Option %5, Value %6, Seq %2, Status %7" />
+        <string id="AFD_EVENT_RECV.EventMessage" value="recv: %1: Process %3, Endpoint %4, Buffer Count %5, Buffer %6, Length %7, Seq %2, Status %8" />
+        <string id="AFD_EVENT_RECVFROM.EventMessage" value="recvfrom: %1: Process %3, Endpoint %4, Buffer Count %5, Buffer %6, Length %7, Seq %2, Status %8" />
+        <string id="AFD_EVENT_RECVFROM_ADDR.EventMessage" value="recvfrom: %1: Process %3, Endpoint %4, Buffer Count %5, Buffer %6, Length %7, Addr %10, Seq %2, Status %8" />
+        <string id="AFD_EVENT_RECVMSG.EventMessage" value="recvmsg: %1: Process %3, Endpoint %4, Buffer Count %5, Buffer %6, Length %7, Seq %2, Status %8" />
+        <string id="AFD_EVENT_RECVMSG_ADDR.EventMessage" value="recvmsg: %1: Process %3, Endpoint %4, Buffer Count %5, Buffer %6, Length %7, Addr %10, Seq %2, Status %8" />
+        <string id="AFD_EVENT_SEND.EventMessage" value="send: %1: Process %3, Endpoint %4, Buffer Count %5, Buffer %6, Length %7, Seq %2, Status %8" />
+        <string id="AFD_EVENT_SENDBACKLOG.EventMessage" value="Transport send backlog: Process %1, Endpoint %2, Send Backlog %5" />
+        <string id="AFD_EVENT_SENDMSG.EventMessage" value="sendmsg: %1: Process %3, Endpoint %4, Buffer Count %5, Buffer %6, Length %7, Seq %2, Status %8" />
+        <string id="AFD_EVENT_SENDMSG_ADDR.EventMessage" value="sendmsg: %1: Process %3, Endpoint %4, Buffer Count %5, Buffer %6, Length %7, Addr %10, Seq %2, Status %8" />
+        <string id="AFD_EVENT_SENDTO.EventMessage" value="sendto: %1: Process %3, Endpoint %4, Buffer Count %5, Buffer %6, Length %7, Seq %2, Status %8" />
+        <string id="AFD_EVENT_SENDTO_ADDR.EventMessage" value="sendto: %1: Process %3, Endpoint %4, Buffer Count %5, Buffer %6, Length %7, Addr %10, Seq %2, Status %8" />
+        <string id="AFD_EVENT_WAITFORLISTEN.EventMessage" value="Wait for listen: %1: Process %3, Endpoint %4, Seq %2, Status %5"adata {
+
+		> a,
+		.comment-edit-link {
+			display: inline;
+			font-weight: 500;
+			color: $color__text-light;
+			vertical-align: baseline;
+
+			time {
+				vertical-align: baseline;
+			}
+
+			&:hover {
+				color: $color__link-hover;
+				text-decoration: none;
+			}
+		}
+
+		> * {
+			display: inline-block;
+		}
+
+		.edit-link-sep {
+			color: $color__text-light;
+			margin: 0 0.2em;
+			vertical-align: baseline;
+		}
+
+		.edit-link {
+			color: $color__text-light;
+
+			svg {
+				transform: scale(0.8);
+				vertical-align: baseline;
+				margin-right: 0.1em;
+			}
+		}
+
+		.comment-edit-link {
+			position: relative;
+			padding-left: $size__spacing-unit;
+			margin-left: -#{$size__spacing-unit};
+			z-index: 1;
+
+			&:hover {
+				color: $color__link;
+			}
+		}
+	}
+
+	.comment-content {
+
+		margin: $size__spacing-unit 0;
+
+		@include media(desktop) {
+			padding-right: $size__spacing-unit;
+		}
+
+		> *:first-child {
+			margin-top: 0;
+		}
+
+		> *:last-child {
+			margin-bottom: 0;
+		}
+
+		blockquote {
+			margin-left: 0;
+		}
+
+		a {
+			text-decoration: underline;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.comment-reply-link,
+#cancel-comment-reply-link {
+	font-weight: 500;
+
+	&:hover {
+		color: $color__link-hover;
+	}
+}
+
+.discussion-avatar-list {
+	@include clearfix;
+
+	margin: 0;
+	padding: 0;
+
+	li {
+		position: relative;
+		list-style: none;
+		margin: 0 -8px 0 0;
+		padding: 0;
+		float: left;
+	}
+
+	.comment-user-avatar {
+
+		img {
+			height: calc(1.5 * #{$size__spacing-unit});
+			width: calc(1.5 * #{$size__spacing-unit});
+		}
+	}
+}
+
+.discussion-meta {
+
+	.discussion-meta-info {
+		margin: 0;
+
+		.svg-icon {
+			vertical-align: middle;
+			fill: currentColor;
+			transform: scale( 0.6 ) scaleX(-1) translateY(-0.1em);
+			margin-left: -#{.25 * $size__spacing-unit}; // Align icon with avatars above.
+		}
+	}
+
+}
+
+.comment-form {
+
+	.comment-notes,
+	label {
+		@include font-family( $font__heading );
+		font-size: $font__size-xs;
+		color: $color__text-light;
+	}
+
+	.comment-form-author,
+	.comment-form-email {
+		@include media(tablet) {
+			width: calc(50% - #{$size__spacing-unit / 2});
+			float: left;
+		}
+	}
+
+	.comment-form-email {
+		@include media(tablet) {
+			margin-left: $size__spacing-unit;
+		}
+	}
+
+	input[name="author"],
+	input[name="email"],
+	input[name="url"] {
+		display: block;
+		width: 100%;
+	}
+}

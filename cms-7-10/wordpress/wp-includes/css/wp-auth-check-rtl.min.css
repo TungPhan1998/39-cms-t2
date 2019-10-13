@@ -1,0 +1,26 @@
+_CLASSES_ROOT\Interface\{dd8d4a1a-8187-41e9-ac76-5d128f0aa0f5}" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IAutoUpdateInstallAtShutdown" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{dd8d4a1a-8187-41e9-ac76-5d128f0aa0f5}\NumMethods" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="7" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{dd8d4a1a-8187-41e9-ac76-5d128f0aa0f5}\ProxyStubClsid32" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{5D52C3ED-4D79-4069-82B7-FBD600FC64B7}" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{925CBC18-A2EA-4648-BF1C-EC8BADCFE20A}\ProxyStubClsid32" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{925CBC18-A2EA-4648-BF1C-EC8BADCFE20A}\ProxyStubClsid" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="{00020424-0000-0000-C000-000000000046}" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{925CBC18-A2EA-4648-BF1C-EC8BADCFE20A}" owner="false">
+      <registryValue name="" valueType="REG_SZ" value="IInstallationAgent" owner="true" />
+      <securityDescriptor name="WRP_REGKEY_DEFAULT_SDDL" />
+    </registryKey>
+    <registryKey keyName="HKEY_CLASSES_ROOT\Interface\{925CBC18-A2EA-4648-BF1C-EC8BADCFE20A}\TypeLib" owner="false">
+      <registryValue name="" valueType="REG_

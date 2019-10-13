@@ -1,0 +1,10 @@
+, Address %9, Accept Endpoint %10, Current Backlog %11, Seq %2, Status %7" />
+        <string id="AFD_EVENT_BIND.EventMessage" value="bind: %1: Process %3, Endpoint %4, Seq %2, Status %5" />
+        <string id="AFD_EVENT_BIND_ADDR.EventMessage" value="bind: %1: Process %3, Endpoint %4, Address %7, Seq %2, Status %5" />
+        <string id="AFD_EVENT_CLEANUP.EventMessage" value="socket cleanup: %1: Process %3, Endpoint %4, Seq %2, Status %5" />
+        <string id="AFD_EVENT_CLOSE.EventMessage" value="closesocket: %1: Process %3, Endpoint %4, Seq %2, Status %5" />
+        <string id="AFD_EVENT_CONNECT.EventMessage" value="connect: %1: Process %3, Endpoint %4, Seq %2, Status %5" />
+        <string id="AFD_EVENT_CONNECT_ADDR.EventMessage" value="connect: %1: Process %3, Endpoint %4, Address %9, Seq %2, Status %7" />
+        <string id="AFD_EVENT_CONNECT_INDICATION.EventMessage" value="Connect indication: %1: Process %3, Endpoint %4, Seq %2, Status %5" />
+        <string id="AFD_EVENT_CONNECT_INDICATION_ADDR.EventMessage" value="Connect indication: %1: Process %3, Endpoint %4, Address %7, Backlog Count %8, Seq %2, Status %5" />
+        <string id="AFD_EVENT_CONNECTEX.EventMessage" value="ConnectEx: %
